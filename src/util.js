@@ -3,7 +3,8 @@ function chillHop() {
   return [
     {
       name: "Beaver Creek",
-      cover: "",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2021/03/e2cf41018e0c244f7f683dd6f6313551996a2952-300x300.jpg",
       artist: "Aso, Middle School, Aviino",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
       color: ["#205950", "#2ab3bf"],
