@@ -8,6 +8,8 @@ h2,
 h3 {
   color: rgb(56, 54, 54);
 }
-
+body {
+  font-family: "Lato", sans-serif;
+}
 @import "./player";
 @import "./song";
