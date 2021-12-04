@@ -40,9 +40,16 @@ const Player = ({
   };
   // handler
   const skipHandlder = (direction) => {
-    const currentIndex = songs.findIndex((song) => song.id === currentSong.id);
+    let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
     if (direction === "skip-forward") {
       setCurrentSong(songs[(currentIndex + 1) % songs.length]);
+    }
+    if (direction === "skip-backward") {
+      if ((currentIndex - 1) % songs.length === -1) {
+        setCurrentSong(songs[songs.length - 1]);
+        return;
+      }
+      setCurrentSong(songs[(currentIndex - 1) % songs.length]);
     }
   };
 
