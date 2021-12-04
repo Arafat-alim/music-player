@@ -5,7 +5,7 @@ import "./styles/app.scss";
 import Player from "./components/Player";
 import Song from "./components/Song";
 // import util
-import data from "./util.js";
+import data from "./data.js";
 import Library from "./components/Library";
 import Nav from "./components/Nav";
 
