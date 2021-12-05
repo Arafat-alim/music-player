@@ -5,7 +5,7 @@ import { faMusic } from "@fortawesome/free-solid-svg-icons";
 const Nav = ({ setLibraryStatus, libraryStatus }) => {
   return (
     <nav>
-      <h1>My-Waves</h1>
+      <h1>🎧 Kordz</h1>
       <button
         className="toggle-btn"
         onClick={() => setLibraryStatus(!libraryStatus)}
