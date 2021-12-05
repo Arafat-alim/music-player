@@ -15,10 +15,10 @@ const Nav = ({ setLibraryStatus, libraryStatus }) => {
         {libraryStatus ? (
           "Close"
         ) : (
-          <div>
+          <>
             Library
             <FontAwesomeIcon icon={faMusic} />
-          </div>
+          </>
         )}
       </button>
     </nav>
