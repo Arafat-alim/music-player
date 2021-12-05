@@ -12,8 +12,14 @@ const Nav = ({ setLibraryStatus, libraryStatus }) => {
         className="toggle-btn"
         onClick={() => setLibraryStatus(!libraryStatus)}
       >
-        Library
-        <FontAwesomeIcon icon={faMusic} />
+        {libraryStatus ? (
+          "Close"
+        ) : (
+          <div>
+            Library
+            <FontAwesomeIcon icon={faMusic} />
+          </div>
+        )}
       </button>
     </nav>
   );
