@@ -182,7 +182,7 @@ function chillHop() {
       artist: "Afrin N Rahman | Negar",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1638809870/Songs/rahman_song_cduhfq.mp3",
-      color: ["#BB2129", "#100F15"],
+      color: ["#EB7664", "#5D1313"],
       id: uuidv4(),
       active: false,
     },
@@ -191,7 +191,7 @@ function chillHop() {
     //   cover: "",
     //   artist: "",
     //   audio: "",
-    //   color: ["#BB2129", "#100F15"],
+    //   color: ["##FA8271", "#5D1313"],
     //   id: uuidv4(),
     //   active: false,
     // },
