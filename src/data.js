@@ -80,7 +80,7 @@ function chillHop() {
     {
       name: "Ranjha",
       cover: "https://pagalnew.com/coverimages/ranjha-shershaah-500-500.jpg",
-      artist: "Jasleen Royal, B Praak",
+      artist: "Jasleen Royal | B Praak",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1638792374/Songs/Ranjha_Shershaah_320_Kbps_kiq4dl.mp3",
       color: ["#7E392A", "#9C9288"],
@@ -91,7 +91,7 @@ function chillHop() {
       name: "Raataan Lambiyan",
       cover:
         "https://pagalnew.com/coverimages/album/shershaah-2021-500-500.jpg",
-      artist: "Jubin Nautiyal, Asees Kaur ",
+      artist: "Jubin Nautiyal | Asees Kaur ",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1638792281/Songs/Raataan_Lambiyan_Shershaah_320_Kbps_bfpkmh.mp3",
       color: ["#715639", "#010101"],
@@ -102,7 +102,7 @@ function chillHop() {
       name: "Chandigarh Kare Aashiqui",
       cover:
         "https://pagalnew.com/coverimages/album/chandigarh-kare-aashiqui-2021-500-500.jpg",
-      artist: "Jassi Sidhu, IP Singh",
+      artist: "Jassi Sidhu | IP Singh",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1638791928/Songs/Title_Track_Chandigarh_Kare_Aashiqui_320_Kbps_iohq42.mp3",
       color: ["#9D06F3", "#F1068F"],
@@ -113,7 +113,7 @@ function chillHop() {
       name: "Yeh Tune Kya Kiya",
       cover:
         "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/73/69/1c/73691c70-8d52-312b-a6b8-6be8267613e2/source/600x600bb.jpg",
-      artist: "Pritam, Javed Bashir",
+      artist: "Pritam | Javed Bashir",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1638806403/Songs/Yeh_Tune_Kya_Kiya_Song_Once_upon_A_Time_In_Mumbaai_Dobara_-_Pritam_-_Akshay_Kumar_Sonakshi_Sinha_zji6uy.mp4",
       color: ["#BB2129", "#100F15"],
@@ -168,7 +168,7 @@ function chillHop() {
       name: "On My Way",
       cover:
         "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/2c/62/302c62b2-13b0-1c13-cd0e-56bcd08c520a/source/600x600bb.jpg",
-      artist: "Alan Walker, Sabrina Carpenter & Farruko",
+      artist: "Alan Walker | Sabrina Carpenter & Farruko",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1638809150/Songs/Alan_Walker_Sabrina_Carpenter_Farruko_-_On_My_Way_Lyrics_winflu.mp4",
       color: ["#47D7F1", "#233E73"],
@@ -190,7 +190,7 @@ function chillHop() {
       name: "Ab Tere Dil Mein To",
       cover:
         "https://a10.gaanacdn.com/images/albums/22/8222/crop_480x480_8222.jpg",
-      artist: "Kumar Sanu | Alka Yagnik | Anu Malik   ",
+      artist: "Kumar Sanu | Alka Yagnik | Anu Malik",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1638816826/Songs/Ab_Tere_Dil_Mein_To_-_Aarzoo_-_Akshay_Kumar_Madhuri_Dixit_Saif_Ali_Khan_-_Kumar_Sanu_Alka_Yagnik_ypxjwa.mp4",
       color: ["#2975AF", "#FBC972"],
@@ -201,7 +201,7 @@ function chillHop() {
       name: "Kasam Ki Kasam ",
       cover:
         "https://pagalnew.com/coverimages/kasam-ki-kasam-main-prem-ki-diwani-hoon-500-500.jpg",
-      artist: "Shaan, K. S. Chithra ",
+      artist: "Shaan | K. S. Chithra ",
       audio: "https://pagalnew.com/download320/11163",
       color: ["#F13D40", "#D9D4D8"],
       id: uuidv4(),
