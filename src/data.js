@@ -45,13 +45,13 @@ function chillHop() {
       active: false,
     },
     {
-      name: "Yeh pyaar Nahi Toh Kya Hai",
+      name: "Yeh Pyaar Nahi Toh Kya Hai",
       cover:
         "https://sgdccdnems03.cdnsrv.jio.com/c.saavncdn.com/663/Ye-Pyar-Nahi-to-Kya-Hai-Unplugged-Version--Hindi-2020-20200330092223-500x500.jpg",
       artist: "Rahul Jain",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1638793306/Songs/X2Download.com_-_Yeh_Pyar_Nahi_To_Kya_Hai_-_Title_Song_-_Rahul_Jain_-_Full_Song_-_Sony_TV_Serial_320_kbps_r7a5az.mp3",
-      color: ["#032C32", "#2E8B78"],
+      color: ["#363636", "#7E3666"],
       id: uuidv4(),
       active: false,
     },
@@ -113,13 +113,114 @@ function chillHop() {
       name: "Yeh Tune Kya Kiya",
       cover:
         "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/73/69/1c/73691c70-8d52-312b-a6b8-6be8267613e2/source/600x600bb.jpg",
-      artist: "Jassi Sidhu, IP Singh",
+      artist: "Pritam, Javed Bashir",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1638806403/Songs/Yeh_Tune_Kya_Kiya_Song_Once_upon_A_Time_In_Mumbaai_Dobara_-_Pritam_-_Akshay_Kumar_Sonakshi_Sinha_zji6uy.mp4",
       color: ["#BB2129", "#100F15"],
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Kabhi Kabhi Aditi",
+      cover:
+        "https://pagalnew.com/coverimages/Kabhi-Kabhi-Aditi-Zindagi-Jaane-Tu..-Ya-Jaane-Na-500-500.jpg",
+      artist: "Rashid Ali",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1638807873/Songs/Kabhi_Kabhi_Aditi_Zindagi_Jaane_Tu.._Ya_Jaane_Na_320_Kbps_zcl3hm.mp3",
+      color: ["#E2F63C", "#D22A2A"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Mere Liye Tum Kaafi",
+      cover:
+        "https://pagalnew.com/coverimages/Mere-Liye-Tum-Kaafi-Ho-Shubh-Mangal-Zyada-Saavdhan-500-500.jpg",
+      artist: "Ayushmann Khurrana ",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1638808102/Songs/Mere_Liye_Tum_Kaafi_Ho_Shubh_Mangal_Zyada_Saavdhan_320_Kbps_pmz4xh.mp3",
+      color: ["#71B5AA", "#F8415D"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Are Are",
+      cover:
+        "https://sgdccdnems04.cdnsrv.jio.com/c.saavncdn.com/038/Makkhi-2012-500x500.jpg",
+      artist: "K.K. | G Sahithi",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1638808658/Songs/Are_Are_Are_g0wjip.mp4",
+      color: ["#E8C02B", "#EE2E2D"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Love Me Like You Do",
+      cover:
+        "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/05/8c/85/058c8521-0001-4eee-efa6-3ef0176bdfa4/source/600x600bb.jpg",
+      artist: "Ellie Goulding",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1638808912/Songs/Ellie_Goulding_-_Love_Me_Like_You_Do_Official_Video_dpb5yd.mp4",
+      color: ["#060606", "#565654"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "On My Way",
+      cover:
+        "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/2c/62/302c62b2-13b0-1c13-cd0e-56bcd08c520a/source/600x600bb.jpg",
+      artist: "Alan Walker, Sabrina Carpenter & Farruko",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1638809150/Songs/Alan_Walker_Sabrina_Carpenter_Farruko_-_On_My_Way_Lyrics_winflu.mp4",
+      color: ["#47D7F1", "#233E73"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Emptiness 💔",
+      cover: "",
+      artist: "Afrin N Rahman | Negar",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1638809870/Songs/rahman_song_cduhfq.mp3",
+      color: ["#BB2129", "#100F15"],
+      id: uuidv4(),
+      active: false,
+    },
+    // {
+    //   name: "",
+    //   cover: "",
+    //   artist: "",
+    //   audio: "",
+    //   color: ["#BB2129", "#100F15"],
+    //   id: uuidv4(),
+    //   active: false,
+    // },
+    // {
+    //   name: "",
+    //   cover: "",
+    //   artist: "",
+    //   audio: "",
+    //   color: ["#BB2129", "#100F15"],
+    //   id: uuidv4(),
+    //   active: false,
+    // },
+    // {
+    //   name: "",
+    //   cover: "",
+    //   artist: "",
+    //   audio: "",
+    //   color: ["#BB2129", "#100F15"],
+    //   id: uuidv4(),
+    //   active: false,
+    // },
+    // {
+    //   name: "",
+    //   cover: "",
+    //   artist: "",
+    //   audio: "",
+    //   color: ["#BB2129", "#100F15"],
+    //   id: uuidv4(),
+    //   active: false,
+    // },
   ];
 }
 
