@@ -186,33 +186,38 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
-    // {
-    //   name: "",
-    //   cover: "",
-    //   artist: "",
-    //   audio: "",
-    //   color: ["##FA8271", "#5D1313"],
-    //   id: uuidv4(),
-    //   active: false,
-    // },
-    // {
-    //   name: "",
-    //   cover: "",
-    //   artist: "",
-    //   audio: "",
-    //   color: ["#BB2129", "#100F15"],
-    //   id: uuidv4(),
-    //   active: false,
-    // },
-    // {
-    //   name: "",
-    //   cover: "",
-    //   artist: "",
-    //   audio: "",
-    //   color: ["#BB2129", "#100F15"],
-    //   id: uuidv4(),
-    //   active: false,
-    // },
+    {
+      name: "Ab Tere Dil Mein To",
+      cover:
+        "https://a10.gaanacdn.com/images/albums/22/8222/crop_480x480_8222.jpg",
+      artist: "Kumar Sanu | Alka Yagnik | Anu Malik   ",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1638816826/Songs/Ab_Tere_Dil_Mein_To_-_Aarzoo_-_Akshay_Kumar_Madhuri_Dixit_Saif_Ali_Khan_-_Kumar_Sanu_Alka_Yagnik_ypxjwa.mp4",
+      color: ["#2975AF", "#FBC972"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Kasam Ki Kasam ",
+      cover:
+        "https://pagalnew.com/coverimages/kasam-ki-kasam-main-prem-ki-diwani-hoon-500-500.jpg",
+      artist: "Shaan, K. S. Chithra ",
+      audio: "https://pagalnew.com/download320/11163",
+      color: ["#F13D40", "#D9D4D8"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Tu Jaan Hai Armaan Hai",
+      cover:
+        "https://pagalsong.in/uploads//thumbnails/300x300/id3Picture_1310175250.jpg",
+      artist: "Alka Yagnik | Sonu Nigam | Karisma Kapoor ",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1638817327/Songs/Tu_jaan_hai_armaan_hai_Mere_pyaar_ki_pehchan_hai_xie16o.mp4",
+      color: ["#CF8C7B", "#EEC643"],
+      id: uuidv4(),
+      active: false,
+    },
     // {
     //   name: "",
     //   cover: "",
