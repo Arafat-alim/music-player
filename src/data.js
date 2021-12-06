@@ -177,7 +177,8 @@ function chillHop() {
     },
     {
       name: "Emptiness 💔",
-      cover: "",
+      cover:
+        "https://scontent.cdninstagram.com/v/t51.39111-15/p240x240/263773040_1008214999756884_1923857759422727718_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=5a057b&_nc_ohc=Em03Tqt7MqUAX8rOFbB&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=dafc1a1a16302288fb449718b6fb4f83&oe=61AFDC78",
       artist: "Afrin N Rahman | Negar",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1638809870/Songs/rahman_song_cduhfq.mp3",
