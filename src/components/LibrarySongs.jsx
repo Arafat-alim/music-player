@@ -5,7 +5,8 @@ const LibrarySongs = ({
   songs,
   setCurrentSong,
   audioRef,
-  isPlaying,
+
+  setIsPlaying,
   currentSong,
   id,
   setSongs,
@@ -28,7 +29,8 @@ const LibrarySongs = ({
     });
     setSongs(newSongs);
     // check if the song is playinh or not?
-    if (isPlaying) audioRef.current.play();
+    audioRef.current.play();
+    setIsPlaying(true);
   };
   return (
     <div

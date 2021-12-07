@@ -42,6 +42,15 @@ function App() {
     await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
     if (isPlaying) audioRef.current.play();
   };
+  const playSongHandler = () => {
+    if (isPlaying) {
+      audioRef.current.pause();
+      setIsPlaying(!isPlaying);
+    } else {
+      audioRef.current.play();
+      setIsPlaying(!isPlaying);
+    }
+  };
   return (
     <div className={`App ${libraryStatus ? "library-active" : ""}  `}>
       <Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />
@@ -57,6 +66,7 @@ function App() {
         id={Song.id}
         setCurrentSong={setCurrentSong}
         setSongs={setSongs}
+        playSongHandler={playSongHandler}
       />
       <Library
         setSongs={setSongs}
@@ -65,7 +75,9 @@ function App() {
         setCurrentSong={setCurrentSong}
         audioRef={audioRef}
         isPlaying={isPlaying}
+        setIsPlaying={setIsPlaying}
         libraryStatus={libraryStatus}
+        playSongHandler={playSongHandler}
       />
       <audio
         ref={audioRef}

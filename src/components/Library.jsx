@@ -9,6 +9,8 @@ const Library = ({
   audioRef,
   isPlaying,
   libraryStatus,
+  playSongHandler,
+  setIsPlaying,
 }) => {
   console.log("Current songs", currentSong.active);
   return (
@@ -23,9 +25,10 @@ const Library = ({
             setCurrentSong={setCurrentSong}
             songs={songs}
             audioRef={audioRef}
-            isPlaying={isPlaying}
             id={song.id}
             setSongs={setSongs}
+            playSongHandler={playSongHandler}
+            setIsPlaying={setIsPlaying}
           />
         ))}
       </div>

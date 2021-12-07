@@ -9,7 +9,6 @@ import {
 
 const Player = ({
   currentSong,
-  setIsPlaying,
   isPlaying,
   audioRef,
   songInfo,
@@ -17,6 +16,7 @@ const Player = ({
   songs,
   setCurrentSong,
   setSongs,
+  playSongHandler,
 }) => {
   // event handler
   const activeLibraryHandler = (nextPrev) => {
@@ -35,15 +35,6 @@ const Player = ({
       }
     });
     setSongs(newSongs);
-  };
-  const playSongHandler = () => {
-    if (isPlaying) {
-      audioRef.current.pause();
-      setIsPlaying(!isPlaying);
-    } else {
-      audioRef.current.play();
-      setIsPlaying(!isPlaying);
-    }
   };
 
   const getTime = (time) => {
