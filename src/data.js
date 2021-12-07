@@ -218,6 +218,66 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Main Zindagi Ka Saath Nibhata Chala",
+      cover:
+        "https://pagalnew.com/coverimages/Main-Zindagi-Ka-Saath-Nibhata-Chala-Gaya-Hum-Dono-500-500.jpg",
+      artist: "Mohammed Rafi",
+      audio: "https://pagalnew.com/download320/1044",
+      color: ["#959595", "#C1E5F5"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Mann Mera (Reprise) ",
+      cover: "https://i.scdn.co/image/ab6761610000e5eb41d0a40b84280ac087e7b7ec",
+      artist: "JalRaj | Gajendra Verma",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1638875736/Songs/Mann_Mera_Reprise__192_PagalWorld.com.se_bhoixc.mp3",
+      color: ["#FEFEFE", "#000000"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Dil Chahte Ho",
+      cover:
+        "https://pagalnew.com/coverimages/Dil-Chahte-Ho-Jubin-Nautiyal-500-500.jpg",
+      artist: "Jubin Nautiyal | Payal Dev ",
+      audio: "https://pagalnew.com/download320/2031",
+      color: ["#CE9FC9", "#6A352D"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Bewafa Tera Masoom Chehra ",
+      cover:
+        "https://pagalnew.com/coverimages/Bewafa-Tera-Masoom-Chehra-Jubin-Nautiyal-500-500.jpg",
+      artist: "Jubin Nautiyal | Rochak Kohli",
+      audio: "https://pagalnew.com/download320/2225",
+      color: ["#F2CA08", "#4CC3E5"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Kaabil Hoon ",
+      cover:
+        "https://pagalnew.com/coverimages/Kaabil-Hoon-Jubin-Nautiyal-500-500.jpg",
+      artist: "Jubin Nautiyal, Palak Muchhal ",
+      audio: "https://pagalnew.com/download320/3339",
+      color: ["#44A47F", "#DED68D"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Lut Gaye ",
+      cover:
+        "https://pagalnew.com/coverimages/lut-gaye-jubin-nautiyal-500-500.jpg",
+      artist: "Jubin Nautiyal ",
+      audio: "https://pagalnew.com/download320/3796",
+      color: ["#21130A", "#D78644"],
+      id: uuidv4(),
+      active: false,
+    },
     // {
     //   name: "",
     //   cover: "",
