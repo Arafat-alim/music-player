@@ -278,15 +278,57 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
-    // {
-    //   name: "",
-    //   cover: "",
-    //   artist: "",
-    //   audio: "",
-    //   color: ["#BB2129", "#100F15"],
-    //   id: uuidv4(),
-    //   active: false,
-    // },
+    {
+      name: "Tujhe Kitna Chahein Aur",
+      cover: "https://i1.sndcdn.com/artworks-000578543999-vql626-t500x500.jpg",
+      artist: "Mithoon |Jubin",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1638893761/Songs/Full_Song-_Tujhe_Kitna_Chahein_Aur_Film_Version_-_Kabir_Singh_-_Shahid_K_Kiara_A_-_Mithoon_-Jubin_zvubg8.mp4",
+      color: ["#DCD5C5", "#181C39"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Humnava Mere",
+      cover:
+        "https://a10.gaanacdn.com/images/albums/84/2148984/crop_480x480_1527061885_2148984.jpg",
+      artist: "Jubin Nautiyal",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1638894848/Songs/Humnava_Mere_192_PagalWorld.com.se_ytj61v.mp3",
+      color: ["#64E1E3", "#FCE7E4"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Kaun Tujhe",
+      cover:
+        "https://pagalnew.com/coverimages/Kaun-Tujhe-M.S.-Dhoni---The-Untold-Story-500-500.jpg",
+      artist: "Palak Muchhal",
+      audio: "https://pagalnew.com/download320/4057",
+      color: ["#E9EAD8", "#286B7E"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Jab Tak",
+      cover:
+        "https://pagalnew.com/coverimages/Kaun-Tujhe-M.S.-Dhoni---The-Untold-Story-500-500.jpg",
+      artist: "Armaan Malik ",
+      audio: "https://pagalnew.com/download320/4058",
+      color: ["#E9EAD8", "#286B7E"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: " Phir Kabhi ",
+      cover:
+        "https://pagalnew.com/coverimages/Kaun-Tujhe-M.S.-Dhoni---The-Untold-Story-500-500.jpg",
+      artist: "Arijit Singh",
+      audio: "https://pagalnew.com/download320/4059",
+      color: ["#E9EAD8", "#286B7E"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
