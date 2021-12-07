@@ -4,11 +4,11 @@ function chillHop() {
     {
       name: "Nazm Nazm",
       cover:
-        "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/66/4a/65/664a6508-5c51-a114-5ed0-3e8ac53fa0c4/source/600x600bb.jpg",
+        "https://a10.gaanacdn.com/images/song/25/22348025/crop_480x480_1516002143.jpg",
       artist: "Ayushmann Khurrana ",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1638805635/Songs/Nazm_Nazm_Feat._Ayushmann_Khurrana_Bareilly_Ki_Barfi_320_Kbps_nwbsh8.mp3",
-      color: ["#A92F60", "#8DDCD7"],
+      color: ["#978B51", "#CFCAAD"],
       id: uuidv4(),
       active: true,
     },
