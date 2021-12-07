@@ -42,6 +42,12 @@ h4 {
 .library-active {
   margin-left: 30%;
 }
+
+@media screen and (max-width: 320px) {
+  h2 {
+    font-size: 1.1rem;
+  }
+}
 @import "./player";
 @import "./song";
 @import "./library";
