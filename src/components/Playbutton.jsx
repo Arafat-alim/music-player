@@ -1,0 +1,23 @@
+import React from "react";
+import { faPause, faPlay } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Spinner from "./Spinner";
+
+const Playbutton = ({ playSongHandler, isPlaying, isLoading }) => {
+  return (
+    <>
+      {isLoading ? (
+        <Spinner />
+      ) : (
+        <FontAwesomeIcon
+          onClick={playSongHandler}
+          className="play"
+          size="2x"
+          icon={isPlaying ? faPause : faPlay}
+        />
+      )}
+    </>
+  );
+};
+
+export default Playbutton;

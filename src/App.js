@@ -16,6 +16,8 @@ function App() {
   const [songs, setSongs] = useState(data());
   const [currentSong, setCurrentSong] = useState(songs[0]);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [autoplay, setAutoPlay] = useState(false);
   const [songInfo, setSongInfo] = useState({
     currentTime: 0,
     duration: 0,
@@ -37,10 +39,20 @@ function App() {
       animationPercentage: animation,
     });
   };
-  const songEndedHandler = async () => {
+  const skipTrackHandler = async () => {
     let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
-    await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
-    if (isPlaying) audioRef.current.play();
+    // await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
+    // if (isPlaying) audioRef.current.play();
+    const nextSongIndex = (currentIndex + 1) % songs.length;
+    const nextSong =
+      nextSongIndex > -1 ? songs[nextSongIndex] : songs[songs.length - 1];
+    changeSong(nextSong);
+  };
+  const changeSong = (nextSong) => {
+    setCurrentSong(nextSong);
+    if (!autoplay) {
+      setAutoPlay(true);
+    }
   };
   const playSongHandler = () => {
     if (isPlaying) {
@@ -50,6 +62,17 @@ function App() {
       audioRef.current.play();
       setIsPlaying(!isPlaying);
     }
+  };
+  const onLoadedMetadata = (e) => {
+    timeUpdateHandler(e);
+    setIsLoading(false);
+    if (autoplay) {
+      audioRef.current.play();
+    }
+  };
+
+  const onError = (e) => {
+    console.log(e);
   };
   return (
     <div className={`App ${libraryStatus ? "library-active" : ""}  `}>
@@ -64,6 +87,7 @@ function App() {
         songInfo={songInfo}
         songs={songs}
         id={Song.id}
+        isLoading={isLoading}
         setCurrentSong={setCurrentSong}
         setSongs={setSongs}
         playSongHandler={playSongHandler}
@@ -82,9 +106,13 @@ function App() {
       <audio
         ref={audioRef}
         src={currentSong.audio}
+        onError={onError}
+        onPlay={() => setIsPlaying(true)}
+        onPause={() => setIsPlaying(false)}
         onTimeUpdate={timeUpdateHandler}
-        onLoadedMetadata={timeUpdateHandler}
-        onEnded={songEndedHandler}
+        onLoadStart={() => setIsLoading(true)}
+        onLoadedMetadata={onLoadedMetadata}
+        onEnded={() => skipTrackHandler()}
       />
     </div>
   );

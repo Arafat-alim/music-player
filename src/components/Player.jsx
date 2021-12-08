@@ -6,8 +6,10 @@ import {
   faPlay,
   faPause,
 } from "@fortawesome/free-solid-svg-icons";
+import Playbutton from "./Playbutton";
 
 const Player = ({
+  isLoading,
   currentSong,
   isPlaying,
   audioRef,
@@ -71,13 +73,14 @@ const Player = ({
   const trackAnime = {
     transform: `translate(${songInfo.animationPercentage}%)`,
   };
+  const trackBackground = `linear-gradient(to right, ${currentSong.color[0]}, ${currentSong.color[1]})`;
   return (
     <div className="player">
       <div className="time-control">
         <p>{getTime(songInfo.currentTime)}</p>
         <div
           style={{
-            background: `linear-gradient(to right, ${currentSong.color[0]}, ${currentSong.color[1]})`,
+            background: trackBackground,
           }}
           className="track"
         >
@@ -100,11 +103,16 @@ const Player = ({
           className="play"
           onClick={() => skipHandlder("skip-backward")}
         />
-        <FontAwesomeIcon
+        {/* <FontAwesomeIcon
           onClick={playSongHandler}
           size="2x"
           icon={isPlaying ? faPause : faPlay}
           className="play"
+        /> */}
+        <Playbutton
+          playSongHandler={playSongHandler}
+          isPlaying={isPlaying}
+          isLoading={isLoading}
         />
         <FontAwesomeIcon
           size="2x"
