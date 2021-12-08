@@ -1,11 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faAngleLeft,
-  faAngleRight,
-  faPlay,
-  faPause,
-} from "@fortawesome/free-solid-svg-icons";
+import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import Playbutton from "./Playbutton";
 
 const Player = ({
@@ -103,12 +98,7 @@ const Player = ({
           className="play"
           onClick={() => skipHandlder("skip-backward")}
         />
-        {/* <FontAwesomeIcon
-          onClick={playSongHandler}
-          size="2x"
-          icon={isPlaying ? faPause : faPlay}
-          className="play"
-        /> */}
+
         <Playbutton
           playSongHandler={playSongHandler}
           isPlaying={isPlaying}
