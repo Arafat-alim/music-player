@@ -70,7 +70,7 @@ function App() {
       audioRef.current.play();
     }
   };
-
+  const volumeHandler = () => {};
   const onError = (e) => {
     console.log(e);
   };
@@ -113,6 +113,7 @@ function App() {
         onLoadStart={() => setIsLoading(true)}
         onLoadedMetadata={onLoadedMetadata}
         onEnded={() => skipTrackHandler()}
+        onVolumeChange={volumeHandler}
       />
     </div>
   );

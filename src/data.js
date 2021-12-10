@@ -329,6 +329,25 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Woh Din",
+      cover: "https://pagalnew.com/coverimages/Woh-Din-Chhichhore-500-500.jpg",
+      artist: "Arijit Singh",
+      audio: "https://pagalnew.com/download320/2631",
+      color: ["#95918E", "#E4B330"],
+      id: uuidv4(),
+      active: false,
+    },
+
+    {
+      name: "Khairiyat",
+      cover: "https://pagalnew.com/coverimages/Woh-Din-Chhichhore-500-500.jpg",
+      artist: "Arijit Singh",
+      audio: "https://pagalnew.com/download320/2632",
+      color: ["#95918E", "#E4B330"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
