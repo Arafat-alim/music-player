@@ -320,7 +320,7 @@ function chillHop() {
       active: false,
     },
     {
-      name: " Phir Kabhi ",
+      name: "Phir Kabhi",
       cover:
         "https://pagalnew.com/coverimages/Kaun-Tujhe-M.S.-Dhoni---The-Untold-Story-500-500.jpg",
       artist: "Arijit Singh",
