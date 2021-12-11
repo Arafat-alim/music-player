@@ -348,6 +348,17 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Rohan Rathore - Emptiness ( Original )",
+      cover:
+        "https://i.pinimg.com/564x/cf/95/dc/cf95dc62b809224461b025cbbc14e544--lyrics-book-jacket.jpg",
+      artist: "Gajendra Verma",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1639218767/Songs/Rohan_Rathore_-_Emptiness_Originial_xw26pc.mp4",
+      color: ["#95918E", "#F3FAF2"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
