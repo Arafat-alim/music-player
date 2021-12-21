@@ -370,10 +370,12 @@ function chillHop() {
     },
     {
       name: "Tu Laung Main Elaachi",
-      cover: "https://pagalnew.com/coverimages/Duniyaa-Luka-Chuppi-500-500.jpg",
-      artist: "Tulsi Kumar",
-      audio: "https://pagalnew.com/download320/11284",
-      color: ["#758547", "#277742"],
+      cover:
+        "https://pagalsong.in/uploads//thumbnails/300x300/id3Picture_110637043.jpg",
+      artist: "Mannat Noor",
+      audio:
+        "https://pagalsong.in/download/6450/Laung%20Laachi%20-%20Title%20Song%20320%20KBPS%20mp3",
+      color: ["#FAEEA6", "#675024"],
       id: uuidv4(),
       active: false,
     },
