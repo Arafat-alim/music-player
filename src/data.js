@@ -359,6 +359,63 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Duniyaa",
+      cover: "https://i.scdn.co/image/ab67616d0000b2737b93fd8b0ade33ceb9d536de",
+      artist: "Akhil, Dhvani Bhanushali",
+      audio: "https://pagalnew.com/download320/11285",
+      color: ["#433F3E", "#007EE6"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Tu Laung Main Elaachi",
+      cover: "https://pagalnew.com/coverimages/Duniyaa-Luka-Chuppi-500-500.jpg",
+      artist: "Tulsi Kumar",
+      audio: "https://pagalnew.com/download320/11284",
+      color: ["#758547", "#277742"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Dil Ibaadat",
+      cover:
+        "https://www.lyricspedia.co.in/wp-content/uploads/2021/06/Screenshot_20210605-095501-01.jpeg",
+      artist: "K.K",
+      audio: "https://pagalnew.com/download320/7075",
+      color: ["#6D4722", "#F89752"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Pehli Nazar Mein",
+      cover:
+        "https://sklktcdnems07.cdnsrv.jio.com/c.saavncdn.com/663/Pehli-Nazar-Hindi-2019-20191130091130-500x500.jpg",
+      artist: "Pritam, Atif Aslam",
+      audio: "https://pagalnew.com/download320/8904",
+      color: ["#020202", "#76CBC6"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Bulleya",
+      cover:
+        "https://sklktecdnems03.cdnsrv.jio.com/c.saavncdn.com/438/Bulleya-MTV-Unplugged--Hindi-2019-20190606121536-500x500.jpg",
+      artist: "Papon, Vishal-Shekhar, Irshad Kamil",
+      audio: "https://pagalnew.com/download320/3977",
+      color: ["#CE8A75", "#47B133"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Alizeh",
+      cover: "https://m.media-amazon.com/images/I/61BYhIMm6WL._SS500_.jpg",
+      artist: "Pritam, Arijit Singh",
+      audio: "https://pagalnew.com/download320/4102",
+      color: ["#2A174F", "#810DA4"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
