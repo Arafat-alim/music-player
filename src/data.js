@@ -374,7 +374,7 @@ function chillHop() {
         "https://pagalsong.in/uploads//thumbnails/300x300/id3Picture_110637043.jpg",
       artist: "Mannat Noor",
       audio:
-        "https://pagalsong.in/download/6450/Laung%20Laachi%20-%20Title%20Song%20320%20KBPS%20mp3",
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1640090985/Songs/Laung_Laachi_-_Title_Song_Laung_Laachi_320_Kbps_lbdybf.mp3",
       color: ["#FAEEA6", "#675024"],
       id: uuidv4(),
       active: false,
