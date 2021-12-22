@@ -418,6 +418,42 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Alizeh",
+      cover: "https://m.media-amazon.com/images/I/61BYhIMm6WL._SS500_.jpg",
+      artist: "Pritam, Arijit Singh",
+      audio: "https://pagalnew.com/download320/4102",
+      color: ["#2A174F", "#810DA4"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Alizeh",
+      cover: "https://m.media-amazon.com/images/I/61BYhIMm6WL._SS500_.jpg",
+      artist: "Pritam, Arijit Singh",
+      audio: "https://pagalnew.com/download320/4102",
+      color: ["#2A174F", "#810DA4"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Alizeh",
+      cover: "https://m.media-amazon.com/images/I/61BYhIMm6WL._SS500_.jpg",
+      artist: "Pritam, Arijit Singh",
+      audio: "https://pagalnew.com/download320/4102",
+      color: ["#2A174F", "#810DA4"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Alizeh",
+      cover: "https://m.media-amazon.com/images/I/61BYhIMm6WL._SS500_.jpg",
+      artist: "Pritam, Arijit Singh",
+      audio: "https://pagalnew.com/download320/4102",
+      color: ["#2A174F", "#810DA4"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
