@@ -477,6 +477,24 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Aa To Sahii",
+      cover: "https://i1.sndcdn.com/artworks-000242957876-7r7bjo-t500x500.jpg",
+      artist: "Meet Bros, Neha Kakkar",
+      audio: "https://pagalnew.com/download320/3647",
+      color: ["#05075A", "#763462"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Aa To Sahii",
+      cover: "https://i1.sndcdn.com/artworks-000242957876-7r7bjo-t500x500.jpg",
+      artist: "Meet Bros, Neha Kakkar",
+      audio: "https://pagalnew.com/download320/3647",
+      color: ["#05075A", "#763462"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
