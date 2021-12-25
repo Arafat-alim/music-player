@@ -550,6 +550,16 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Ya Ali",
+      cover:
+        "https://i1.sndcdn.com/artworks-0brduk0iNyz0bdLY-oNDoyw-t500x500.jpg",
+      artist: "Zubeen Garg",
+      audio: "https://pagalnew.com/download320/9663",
+      color: ["#EBB33C", "#5B4432"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
