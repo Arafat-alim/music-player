@@ -497,6 +497,59 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Laree Choote",
+      cover:
+        "https://i1.sndcdn.com/artworks-Tflizwf2THxPMlqJ-l2nE0g-t500x500.jpg",
+      artist: "Xulfi",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1640455399/Songs/Laree_Choote_-_Ek_Chalis_Ki_Last_Local_fpheo6.mp3",
+      color: ["#3C4C63", "#5C4849"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Tennu Le Kejo Na",
+      cover:
+        "https://is3-ssl.mzstatic.com/image/thumb/Music30/v4/39/2c/0f/392c0fb3-5fc5-d44f-4992-5d510d709090/8903431533357_cover.jpg/400x400cc.jpg",
+      artist: "Bappi Lahiri, Omer Inayat",
+      audio: "https://pagalnew.com/download320/8234",
+      color: ["#902827", "#AF683A"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Jiya Dhadak Dhadak Jaye",
+      cover:
+        "https://pagalfree.com/images/128Jiya%20Dhadak%20Dhadak%20Jaye%20-%20Kalyug%20128%20Kbps.jpg",
+      artist: "Rohail Hyatt, Faisal Rafi",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1640455933/Songs/Jiya_Dhadak_Dhadak_Jaye_-_Kalyug_nv0mqx.mp3",
+      color: ["#010101", "#B5773A"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Maula Mere Maula",
+      cover:
+        "https://i1.wp.com/99lyricstore.com/wp-content/uploads/2021/04/Maula2BMere2BMaula2BLyrics2BRoop2BKumar2BRathod.jpg?w=700&ssl=1",
+      artist: "Roopkumar Rathod",
+      audio: "https://pagalnew.com/download320/9108",
+      color: ["#0A4F08", "#D72E2E"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Bol Na Halke Halke",
+      cover:
+        "https://is2-ssl.mzstatic.com/image/thumb/Music6/v4/d4/a5/12/d4a512f4-9602-4277-380d-b32c86852d7c/Gulzar-Cover.jpg/400x400cc.jpg",
+      artist: "Rahat Fateh Ali Khan, Mahalakshmi Iyer",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1640456346/Songs/Bol-Na-Halke-Halke-_pagalworldsongs.co.in_oln44k.mp3",
+      color: ["#CF2C25", "#FFC03E"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
