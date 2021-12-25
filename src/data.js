@@ -482,19 +482,18 @@ function chillHop() {
       cover:
         "https://c-cl.cdn.smule.com/rs-s80/arr/b5/5a/9acbca39-faa2-4205-a120-7dc4494db937_1024.jpg",
       artist: "Suraj Jagan",
-      audio:
-        "https://pagalnew.com/mp3-songs/bollywood-mp3-songs/give-me-some-sunshine-128-kbps-sound.mp3",
+      audio: "https://pagalnew.com/download320/8475",
       color: ["#945A11", "#000000"],
       id: uuidv4(),
       active: false,
     },
     {
-      name: "Aa To Sahii",
+      name: "Behti Hawa Sa Tha Woh",
       cover:
         "https://pagalnew.com/coverimages/behti-hawa-sa-tha-woh-500-500.jpg",
-      artist: "Meet Bros, Neha Kakkar",
-      audio: "https://pagalnew.com/download320/3647",
-      color: ["#05075A", "#763462"],
+      artist: "Shaan",
+      audio: "https://pagalnew.com/download320/8456",
+      color: ["#C2C2C2", "#060606"],
       id: uuidv4(),
       active: false,
     },
