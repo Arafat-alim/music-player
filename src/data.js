@@ -560,7 +560,45 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
-  ];
+    {
+      name: "Humnava",
+      cover:
+        "https://a10.gaanacdn.com/images/albums/99/588699/crop_480x480_588699.jpg",
+      artist: "Mithoon, Papon",
+      audio: "https://pagalnew.com/download320/4677",
+      color: ["#332C34", "#CA2863"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Hasi Male Version",
+      cover: "https://i1.sndcdn.com/artworks-000138859805-b957w7-t500x500.jpg",
+      artist: "Ami Mishra",
+      audio: "https://pagalnew.com/download320/4678",
+      color: ["#FD678A", "#8D1D55"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Hasi Female Version",
+      cover: "https://m.media-amazon.com/images/I/616XAAYSpuL.jpg",
+      artist: "Shreya Ghoshal",
+      audio: "https://pagalnew.com/download320/4679",
+      color: ["#E5A67D", "#D19444"],
+      id: uuidv4(),
+      active: false,
+    },
+  //   {
+  //     name: "Ya Ali",
+  //     cover:
+  //       "https://i1.sndcdn.com/artworks-0brduk0iNyz0bdLY-oNDoyw-t500x500.jpg",
+  //     artist: "Zubeen Garg",
+  //     audio: "https://pagalnew.com/download320/9663",
+  //     color: ["#EBB33C", "#5B4432"],
+  //     id: uuidv4(),
+  //     active: false,
+  //   },
+  // ];
 }
 
 export default chillHop;
