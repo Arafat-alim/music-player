@@ -617,6 +617,16 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Waalian: Harnoor",
+      cover:
+        "https://a10.gaanacdn.com/images/albums/24/4734224/crop_480x480_4734224.jpg",
+      artist: "Harnoor",
+      audio: "https://pagalnew.com/download320/17129",
+      color: ["#CFB7C5", "#98B0B2"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
