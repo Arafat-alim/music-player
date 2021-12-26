@@ -588,17 +588,36 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
-  //   {
-  //     name: "Ya Ali",
-  //     cover:
-  //       "https://i1.sndcdn.com/artworks-0brduk0iNyz0bdLY-oNDoyw-t500x500.jpg",
-  //     artist: "Zubeen Garg",
-  //     audio: "https://pagalnew.com/download320/9663",
-  //     color: ["#EBB33C", "#5B4432"],
-  //     id: uuidv4(),
-  //     active: false,
-  //   },
-  // ];
+    {
+      name: "Subhanallah",
+      cover:
+        "https://pagalnew.com/coverimages/Subhanallah-Yeh-Jawaani-Hai-Deewani-500-500.jpg",
+      artist: "Pritam, Sreerama Chandra, Shilpa Rao",
+      audio: "https://pagalnew.com/download320/6104",
+      color: ["#DDC446", "#EE2E43"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Ilahi",
+      cover:
+        "https://pagalnew.com/coverimages/Subhanallah-Yeh-Jawaani-Hai-Deewani-500-500.jpg",
+      artist: "Pritam, Arijit Singh",
+      audio: "https://pagalnew.com/download320/6101",
+      color: ["#DDC446", "#EE2E43"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Khairiyat",
+      cover: "https://i1.sndcdn.com/artworks-000632688865-s2rdla-t500x500.jpg",
+      artist: "Arijit Singh",
+      audio: "https://pagalnew.com/download320/2632",
+      color: ["#1F2E29", "#B0A726"],
+      id: uuidv4(),
+      active: false,
+    },
+  ];
 }
 
 export default chillHop;
