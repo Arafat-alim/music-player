@@ -627,6 +627,17 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Hothon Se Chhulo Tum",
+      cover:
+        "https://sdlhivkcdnems02.cdnsrv.jio.com/c.saavncdn.com/025/Hothon-Se-Chhu-Lo-Tum-Romantic-Ghazals-Hindi-2014-20190924060934-500x500.jpg",
+      artist: "Jagjit Singh",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1640626807/Songs/Hothon_Se_Chhu_Lo_Tum_From_Prem_Geet_-_Prem_Geet_320_Kbps_ii0euk.mp3",
+      color: ["#4E1121", "#E64682"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
