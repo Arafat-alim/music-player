@@ -482,7 +482,8 @@ function chillHop() {
       cover:
         "https://c-cl.cdn.smule.com/rs-s80/arr/b5/5a/9acbca39-faa2-4205-a120-7dc4494db937_1024.jpg",
       artist: "Suraj Jagan",
-      audio: "https://pagalnew.com/download320/8475",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1640627070/Songs/MP3DOWNLOAD.TO_%E4%B8%89%E5%80%8B%E5%82%BB%E7%93%9C_3_idiots_-_Give_me_some_sunshine-320k_srabhv.mp3",
       color: ["#945A11", "#000000"],
       id: uuidv4(),
       active: false,
