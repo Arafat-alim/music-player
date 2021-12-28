@@ -639,6 +639,15 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Mera Mann Kehne Laga",
+      cover: "https://i1.sndcdn.com/artworks-000055885590-j9h3t8-t500x500.jpg",
+      artist: "Falak Shabir",
+      audio: "https://pagalnew.com/download320/6002",
+      color: ["#B51426", "#B58672"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
