@@ -648,6 +648,87 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Tere Bin",
+      cover: "https://tabsnation.com/wp-content/uploads/2021/07/tere-bin.jpg",
+      artist: "Yasir Jaswal",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1640871899/Songs/02_Tere_Bin_Nahi_Laage_Uzair_Jaswal_Ek_Paheli_Leela_190kbps_kdcteb.mp3",
+      color: ["#6B6B6B", "#83777B"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Feelings - Vatsala",
+      cover:
+        "https://www.pagalworld.pw/GpE34Kg9Gq/113510/144698-feelings-vatsala-female-version-mp3-song-300.jpg",
+      artist: "Vatsala",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1640871649/Songs/Feelings_-_Vatsala_Female_Version_lbcbur.mp3",
+      color: ["#362A10", "#DDB182"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Mere Samne Wali Khidki Mein",
+      cover: "https://i1.sndcdn.com/artworks-000562270875-fbz48q-t500x500.jpg",
+      artist: "Ashish Patil",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1640872393/Songs/MP3DOWNLOAD.TO_Mere_Samne_Wali_Khidki_Mein_-_Ashish_Patil_-_Padosan_-_Kishore_Kumar_-_Cover_-_2018_HD-320k_nwrg3l.mp3",
+      color: ["#213430", "#D3AB77"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Ve Maahi",
+      cover: "https://pagalnew.com/coverimages/Ve-Maahi-Kesari-500-500.jpg",
+      artist: "Asees Kaur, Arijit Singh",
+      audio: "https://pagalnew.com/download320/2319",
+      color: ["#ECEA47", "#FC7B27"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Teri Mitti",
+      cover: "https://pagalnew.com/coverimages/Ve-Maahi-Kesari-500-500.jpg",
+      artist: "B Praak",
+      audio: "https://pagalnew.com/download320/2320",
+      color: ["#ECEA47", "#FC7B27"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Sakhiyaan",
+      cover:
+        "https://a10.gaanacdn.com/images/albums/68/2249968/crop_480x480_1540031665_2249968.jpg",
+      artist: "Maninder Buttar",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1640872876/Songs/Sakhiyaan_-_Maninder_Buttar_l05eby.mp3",
+      color: ["#F0F1AB", "#DFC4A7"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Pehla Nasha [Reverb] | Mood 90's",
+      cover:
+        "https://direct.rhapsody.com/imageserver/images/alb.199765156/600x600.jpg",
+      artist: "Sadhana Sargam, Udit Narayan",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1640873738/Songs/Pehla_Nasha_slowed_qrgfjd.mp3",
+      color: ["#6F3D00", "#911D1E"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Main Rang Sharboton Ka (Acoustic Lofi)",
+      cover: "https://i1.sndcdn.com/artworks-000177278203-qh76iz-t500x500.jpg",
+      artist: "Atif Aslam, Chinmayi Sripada",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1640873297/Songs/Main_Rang_Sharbaton_Ka_Arijit_Singh_Slowed_And_Reverb_t3hpkm.mp3",
+      color: ["#E1E680", "#89EEE0"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
