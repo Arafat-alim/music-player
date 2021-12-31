@@ -729,6 +729,15 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Jaan Ban Gaye",
+      cover: "https://i.scdn.co/image/ab67616d0000b273bb448da1ca2deeadd6813bf0",
+      artist: "Mithoon, Vishal Mishra, Asees Kaur",
+      audio: "https://pagalnew.com/download320/1910",
+      color: ["#EDD9A7", "#C17158"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
