@@ -738,6 +738,37 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Haye Mera Dil",
+      cover: "https://i.scdn.co/image/ab67616d00001e02b9bea7fcfcc928cb79c872c4",
+      artist: "Alfaaz | Yo Yo Honey Singh",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1641060043/Songs/Alfaaz_Haye_Mera_Dil_ft_Yo_Yo_Honey_Singh_whu5jf.mp3",
+      color: ["#E9001D", "#251518"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Breakup Party Yo Yo",
+      cover:
+        "https://a10.gaanacdn.com/images/albums/57/2021357/crop_480x480_2021357.jpg",
+      artist: "Yo Yo Honey Singh",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1641059874/Songs/Breakup_Party_ft_Leo_Yo_Yo_Honey_Singh_m5pdai.mp3",
+      color: ["#8D470B", "#F02504"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Blue Eyes",
+      cover: "https://i1.sndcdn.com/artworks-000062209442-u4qy0y-t500x500.jpg",
+      artist: "Yo Yo Honey Singh",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1641060377/Songs/Blue_Eyes_-_Yo_Yo_Honey_Singh_PagalWorld.com_ryfuh0.mp3",
+      color: ["#19444D", "#B69A8E"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
