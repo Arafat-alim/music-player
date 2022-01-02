@@ -403,7 +403,7 @@ function chillHop() {
       name: "Bulleya",
       cover:
         "https://sklktecdnems03.cdnsrv.jio.com/c.saavncdn.com/438/Bulleya-MTV-Unplugged--Hindi-2019-20190606121536-500x500.jpg",
-      artist: "Papon, Vishal-Shekhar, Irshad Kamil",
+      artist: "Papon | Vishal-Shekhar | Irshad Kamil",
       audio: "https://pagalnew.com/download320/3977",
       color: ["#CE8A75", "#47B133"],
       id: uuidv4(),
@@ -412,7 +412,7 @@ function chillHop() {
     {
       name: "Alizeh",
       cover: "https://m.media-amazon.com/images/I/61BYhIMm6WL._SS500_.jpg",
-      artist: "Pritam, Arijit Singh",
+      artist: "Pritam | Arijit Singh",
       audio: "https://pagalnew.com/download320/4102",
       color: ["#2A174F", "#810DA4"],
       id: uuidv4(),
@@ -422,7 +422,7 @@ function chillHop() {
       name: "Ladki Kyon Na Jane Kyon",
       cover:
         "https://sdlhivkcdnems04.cdnsrv.jio.com/c.saavncdn.com/442/Ladki-Kyon-Hit-Songs-By-Shaan-2013-500x500.jpg",
-      artist: "Shaan, Alka Yagnik",
+      artist: "Shaan | Alka Yagnik",
       audio: "https://pagalnew.com/download320/12166",
       color: ["#2BA3F1", "#416960"],
       id: uuidv4(),
@@ -431,7 +431,7 @@ function chillHop() {
     {
       name: "My Dil Goes Mmm",
       cover: "https://images.shazam.com/coverart/t429351491_s400.jpg",
-      artist: "Shaan, Gayatri Iyer",
+      artist: "Shaan | Gayatri Iyer",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1640197706/Songs/03._My_Dil_Goes_Mmm_dsueye.mp3",
       color: ["#353A4D", "#F76379"],
@@ -442,7 +442,7 @@ function chillHop() {
       name: "Tu Hi Yaar Mera",
       cover:
         "https://i1.sndcdn.com/artworks-eO9FYzcslsVpMg6z-7nn2bA-t500x500.jpg",
-      artist: "Arijit Singh, Neha Kakkar, Rochak Kohli",
+      artist: "Arijit Singh | Neha Kakkar | Rochak Kohli",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1640198052/Songs/Tu_Hi_Yaar_Mera_-_Pati_Patni_Aur_Woh_babzim.mp3",
       color: ["#DCE3B0", "#E8F2F3"],
@@ -471,7 +471,7 @@ function chillHop() {
     {
       name: "Aa To Sahii",
       cover: "https://i1.sndcdn.com/artworks-000242957876-7r7bjo-t500x500.jpg",
-      artist: "Meet Bros, Neha Kakkar",
+      artist: "Meet Bros | Neha Kakkar",
       audio: "https://pagalnew.com/download320/3647",
       color: ["#05075A", "#763462"],
       id: uuidv4(),
@@ -513,7 +513,7 @@ function chillHop() {
       name: "Tennu Le Kejo Na",
       cover:
         "https://is3-ssl.mzstatic.com/image/thumb/Music30/v4/39/2c/0f/392c0fb3-5fc5-d44f-4992-5d510d709090/8903431533357_cover.jpg/400x400cc.jpg",
-      artist: "Bappi Lahiri, Omer Inayat",
+      artist: "Bappi Lahiri | Omer Inayat",
       audio: "https://pagalnew.com/download320/8234",
       color: ["#902827", "#AF683A"],
       id: uuidv4(),
@@ -523,7 +523,7 @@ function chillHop() {
       name: "Jiya Dhadak Dhadak Jaye",
       cover:
         "https://pagalfree.com/images/128Jiya%20Dhadak%20Dhadak%20Jaye%20-%20Kalyug%20128%20Kbps.jpg",
-      artist: "Rohail Hyatt, Faisal Rafi",
+      artist: "Rohail Hyatt | Faisal Rafi",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1640455933/Songs/Jiya_Dhadak_Dhadak_Jaye_-_Kalyug_nv0mqx.mp3",
       color: ["#010101", "#B5773A"],
@@ -544,7 +544,7 @@ function chillHop() {
       name: "Bol Na Halke Halke",
       cover:
         "https://is2-ssl.mzstatic.com/image/thumb/Music6/v4/d4/a5/12/d4a512f4-9602-4277-380d-b32c86852d7c/Gulzar-Cover.jpg/400x400cc.jpg",
-      artist: "Rahat Fateh Ali Khan, Mahalakshmi Iyer",
+      artist: "Rahat Fateh Ali Khan | Mahalakshmi Iyer",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1640456346/Songs/Bol-Na-Halke-Halke-_pagalworldsongs.co.in_oln44k.mp3",
       color: ["#CF2C25", "#FFC03E"],
@@ -593,7 +593,7 @@ function chillHop() {
       name: "Subhanallah",
       cover:
         "https://pagalnew.com/coverimages/Subhanallah-Yeh-Jawaani-Hai-Deewani-500-500.jpg",
-      artist: "Pritam, Sreerama Chandra, Shilpa Rao",
+      artist: "Pritam | Sreerama Chandra | Shilpa Rao",
       audio: "https://pagalnew.com/download320/6104",
       color: ["#DDC446", "#EE2E43"],
       id: uuidv4(),
@@ -603,7 +603,7 @@ function chillHop() {
       name: "Ilahi",
       cover:
         "https://pagalnew.com/coverimages/Subhanallah-Yeh-Jawaani-Hai-Deewani-500-500.jpg",
-      artist: "Pritam, Arijit Singh",
+      artist: "Pritam | Arijit Singh",
       audio: "https://pagalnew.com/download320/6101",
       color: ["#DDC446", "#EE2E43"],
       id: uuidv4(),
@@ -682,7 +682,7 @@ function chillHop() {
     {
       name: "Ve Maahi",
       cover: "https://pagalnew.com/coverimages/Ve-Maahi-Kesari-500-500.jpg",
-      artist: "Asees Kaur, Arijit Singh",
+      artist: "Asees Kaur | Arijit Singh",
       audio: "https://pagalnew.com/download320/2319",
       color: ["#ECEA47", "#FC7B27"],
       id: uuidv4(),
@@ -712,7 +712,7 @@ function chillHop() {
       name: "Pehla Nasha [Reverb] | Mood 90's",
       cover:
         "https://direct.rhapsody.com/imageserver/images/alb.199765156/600x600.jpg",
-      artist: "Sadhana Sargam, Udit Narayan",
+      artist: "Sadhana Sargam | Udit Narayan",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1640873738/Songs/Pehla_Nasha_slowed_qrgfjd.mp3",
       color: ["#6F3D00", "#911D1E"],
