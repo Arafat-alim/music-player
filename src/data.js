@@ -769,6 +769,16 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Channa Mereya",
+      cover: "https://i1.sndcdn.com/artworks-000191733455-q82j8w-t500x500.jpg",
+      artist: "Arijit Singh",
+      audio:
+        "https://res.cloudinary.com/blazzingcdn/video/upload/v1641224733/Songs/07_Channa_Mereya_-_Arijit_Singh_190Kbps_uezdi1.mp3",
+      color: ["#1C1A1D", "#757376"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
