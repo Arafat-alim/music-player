@@ -762,7 +762,7 @@ function chillHop() {
     {
       name: "Blue Eyes",
       cover: "https://i1.sndcdn.com/artworks-000062209442-u4qy0y-t500x500.jpg",
-      artist: "Yo Yo Honey Singh",
+      artist: "Singer | Yo Yo Honey Singh",
       audio:
         "https://res.cloudinary.com/blazzingcdn/video/upload/v1641060377/Songs/Blue_Eyes_-_Yo_Yo_Honey_Singh_PagalWorld.com_ryfuh0.mp3",
       color: ["#19444D", "#B69A8E"],
